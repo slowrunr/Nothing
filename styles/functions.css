@@ -1,0 +1,32 @@
+.functions {
+  margin-bottom: 150px;
+  width: 100%;
+  height: 786px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background-image: url(/images/face2face.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ad__text {
+  margin: 0 auto 39px;
+  padding-top: 190px;
+  width: 560px;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 74px;
+  text-align: center;
+  letter-spacing: -0.06em;
+  color: #ff25c2;
+}
+
+.function__description {
+  margin: 0 auto 39px;
+  width: 671px;
+  text-align: center;
+}
