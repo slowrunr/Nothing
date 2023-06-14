@@ -1,0 +1,105 @@
+.item {
+  position: relative;
+  margin-bottom: 80px;
+  padding-left: 50px;
+  height: 644px;
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  border-radius: 30px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.item:first-child {
+  background-image: url(/images/ear-white-buds.jpg);
+}
+
+.item:nth-last-child(2) {
+  background-image: url(/images/ear-black-buds.jpg);
+}
+
+.model__name {
+  position: absolute;
+  top: 50px;
+  width: 375px;
+}
+
+.model__thumbnail {
+  position: absolute;
+  bottom: 191px;
+  width: 141px;
+  height: 142px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+
+.models-list li:first-child .model__thumbnail {
+  background-image: url(/images/ear-white-buds-thumbnail.jpg);
+}
+
+.models-list li:nth-last-child(2) .model__thumbnail {
+  background-image: url(/images/ear-black-buds-thumbnail.jpg);
+}
+
+.buy-btn {
+  position: absolute;
+  bottom: 51px;
+  width: 420px;
+  font-size: 25px;
+  line-height: 110px;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 100px;
+  text-transform: uppercase;
+}
+
+.item:last-child {
+  padding-left: unset;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 25px;
+}
+
+.promo__text,
+.last__item-wrapper {
+  width: 50%;
+}
+
+.promo__text {
+  padding-top: 364px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 56px;
+  letter-spacing: -0.05em;
+}
+
+.last__item-wrapper {
+  position: relative;
+  padding-left: 35px;
+  background-image: url(/images/nothing-phone.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  border: 1px solid #fff;
+}
+
+.models-list li:last-child h2 {
+  width: 344px;
+  font-size: 45px;
+  line-height: 42px;
+  letter-spacing: -0.05em;
+}
+
+.models-list li:last-child .model__thumbnail {
+  bottom: 45px;
+  width: 180px;
+  background-image: url(/images/nothing-phone-thumbnail.jpg);
+}

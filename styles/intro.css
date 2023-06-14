@@ -1,0 +1,23 @@
+.intro {
+  margin-bottom: 70px;
+}
+.intro__title {
+  margin: 0 auto 20px;
+  width: 919px;
+  text-align: center;
+}
+
+.intro__subtitle {
+  margin: 0 auto;
+  width: 430px;
+  text-align: center;
+}
+
+.intro__image {
+  margin: -10px auto;
+  width: 819px;
+  height: 840px;
+  background-image: url(../images/intro-image.jpg);
+  background-position: center;
+  background-size: cover;
+}

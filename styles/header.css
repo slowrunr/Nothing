@@ -1,0 +1,8 @@
+.menu {
+  margin: 44px auto 60px;
+  width: 603px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 43px;
+}
