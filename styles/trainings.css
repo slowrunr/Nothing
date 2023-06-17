@@ -1,0 +1,42 @@
+.padded {
+  margin-bottom: 154px;
+}
+
+.narrow {
+  margin: 0 auto 154px;
+  width: 507px;
+}
+
+.narrow {
+  position: relative;
+}
+
+.narrow::before {
+  content: "";
+  position: absolute;
+  top: -74px;
+  left: 228px;
+  width: 54px;
+  height: 54px;
+  background: #ff25c2;
+  border-radius: 100px;
+  background-position: center;
+}
+
+.features-list li:first-child .narrow::before {
+  background-image: url("../images/grid.png");
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+}
+
+.features-list li:last-child .narrow::before {
+  background-image: url("../images/lightning-bolt.png");
+  background-size: 12px 22px;
+  background-repeat: no-repeat;
+}
+
+.features-list li:nth-last-child(2) .narrow::before {
+  background-image: url("../images/pause.png");
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+}
