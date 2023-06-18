@@ -1,6 +1,6 @@
 <html lang="en">
   <head>
-    <title>Nothing Ear</title>
+    <title>Nothing Store</title>
     <meta charset="UTF-8" />
     <link rel="icon" href="/" type="image/png" />
     <link rel="stylesheet" href="styles/reset.css" />
@@ -127,27 +127,100 @@
         </div>
       </section>
       <section class="gallery">
-        <ul class="gallery-slides">
-          <li>
-            <p>Мы расчистили путь для превосходного звука, голоса и связи</p>
-          </li>
-          <li>
-            <p>
-              Телефон Nothing Phone (1) это крупнейший запуск года в области
-              смартфонов
-            </p>
-          </li>
-          <li>
-            <p>Дизайн, выходящий за пределы поверхности.</p>
-          </li>
-          <li>
-            <p>
-              И непоколебимая решимость уменьшить воздействие технологий на
-              окружающую среду
-            </p>
-          </li>
-        </ul>
-        <gallery-controls></gallery-controls>
+        <div class="container">
+          <h2 class="gallery__title">Чистый звук, точно настроенный</h2>
+          <div class="gallery__wrapper">
+            <div class="gallery__slides">
+              <div class="gallery__slide gallery__slide_active">
+                <div class="gallery__box">
+                  <img
+                    class="gallery__item"
+                    src="images/ladybug-on-earbud.jpg"
+                    alt="В левой части изображения лежит беспроводной наушник белого цвета, на котором сидит божья коровка."
+                  />
+                  <div class="description__wrapper">
+                    <p class="slide__description">
+                      Мы расчистили путь для превосходного <br />
+                      звука, голоса и связи
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery__slide gallery__slide_active">
+                <div class="gallery__box">
+                  <img
+                    class="gallery__item"
+                    src="images/girl-with-phone.jpg"
+                    alt="В центре изображения лицо девушки в белой блузке c волнистыми волосами пшеничного цвета, которая закрывает левую щеку и глаз смартфоном Nothing phone."
+                  />
+                  <div class="description__wrapper">
+                    <p class="slide__description">
+                      Телефон Nothing Phone (1) это крупнейший <br />
+                      запуск года в области смартфонов
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery__slide gallery__slide_active">
+                <div class="gallery__box">
+                  <img
+                    class="gallery__item"
+                    src="images/flower-on-ribbed-surface.jpg"
+                    alt="В центре изображения цветок, похожий на фиалку, нанесенный на прозрачную ребристую поверхность."
+                  />
+                  <div class="description__wrapper">
+                    <div class="container">
+                      <p class="slide__description">
+                        Дизайн, выходящий за пределы поверхности
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery__slide gallery__slide_active">
+                <div class="gallery__box">
+                  <img
+                    class="gallery__item"
+                    src="images/red-ara-parrot.jpg"
+                    alt="В левой части изображения профиль головы красного ара крупным планом."
+                  />
+                  <div class="description__wrapper">
+                    <p class="slide__description">
+                      И непоколебимая решимость уменьшить <br />
+                      воздействие технологий на окружающую среду
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery__controls">
+              <button class="gallery__control-prev">
+                <picture>
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="images/previous-slide-mbl.png"
+                  />
+                  <img
+                    src="images/previous-slide.png"
+                    alt="Векторная стрелка влево в виде треугольника белого цвета, вписанная в белый круг"
+                  />
+                </picture>
+              </button>
+              <button class="gallery__control-next">
+                <picture>
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="images/next-slide-mbl.png"
+                  />
+                  <img
+                    src="images/next-slide.png"
+                    alt="Векторная стрелка вправо в виде треугольника белого цвета, вписанная в белый круг"
+                  />
+                </picture>
+              </button>
+            </div>
+          </div>
+        </div>
       </section>
       <section class="socials">
         <ul class="socials-list">
@@ -188,5 +261,6 @@
         <p>nothing</p>
       </copyright>
     </footer>
+    <script src="gallery.js"></script>
   </body>
 </html>
