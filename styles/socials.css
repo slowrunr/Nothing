@@ -1,0 +1,22 @@
+.socials {
+  margin-bottom: 200px;
+  padding-top: 68px;
+}
+
+.socials-list {
+  margin: 0 auto;
+  width: 934px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+}
+
+.socials__link {
+  display: block;
+  width: 211px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: -0.06em;
+}
