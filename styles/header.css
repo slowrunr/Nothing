@@ -1,5 +1,10 @@
+.header-nav {
+  margin-top: 44px;
+  margin-bottom: 60px;
+}
+
 .menu {
-  margin: 44px auto 60px;
+  margin: 0 auto;
   width: 603px;
   display: flex;
   flex-wrap: nowrap;

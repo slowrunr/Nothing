@@ -20,3 +20,7 @@
   text-align: center;
   letter-spacing: -0.06em;
 }
+
+.socials__link:hover {
+  color: #ff25c2;
+}
