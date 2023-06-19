@@ -55,21 +55,29 @@
   text-align: center;
 }
 
-.gallery__controls {
+.gallery__controls-wrapper {
   position: absolute;
   bottom: 24.58px;
   width: 100%;
+}
+
+.gallery__controls {
+  margin: 0 auto;
+  width: 120px;
   display: flex;
   gap: 20px;
 }
 
 .gallery__control-prev,
 .gallery__control-next {
-  width: 45.83px;
-  height: 45.83px;
   background: none;
   border: none;
   cursor: pointer;
+}
+
+.gallery__control-image {
+  width: 45.83px;
+  height: 45.83px;
   object-fit: contain;
 }
 
