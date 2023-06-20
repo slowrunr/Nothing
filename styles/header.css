@@ -1,13 +1,14 @@
 .header-nav {
   margin-top: 44px;
-  margin-bottom: 60px;
+  margin-bottom: 68px;
+  text-transform: uppercase;
 }
 
 .menu {
   margin: 0 auto;
-  width: 603px;
+  width: 737px;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
-  gap: 43px;
+  gap: 46px;
 }
