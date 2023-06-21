@@ -30,6 +30,7 @@
   position: absolute;
   top: 50px;
   width: 375px;
+  letter-spacing: -0.04em;
 }
 
 .model__thumbnail {
@@ -72,16 +73,22 @@
   padding-left: unset;
   display: flex;
   flex-wrap: nowrap;
-  gap: 25px;
+  gap: 12px;
 }
 
-.promo__text,
+.promo__text-wrapper,
 .last__item-wrapper {
   width: 50%;
 }
 
+.promo__text-wrapper {
+  display: flex;
+  align-items: flex-end;
+  height: 644px;
+}
+
 .promo__text {
-  padding-top: 364px;
+  max-width: 555px;
   font-weight: 700;
   font-size: 60px;
   line-height: 56px;
@@ -100,10 +107,10 @@
 }
 
 .models-list li:last-child h2 {
-  width: 344px;
+  width: 334px;
   font-size: 45px;
   line-height: 42px;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.07em;
 }
 
 .models-list li:last-child .model__thumbnail {

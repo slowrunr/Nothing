@@ -1,6 +1,5 @@
 .footer-nav {
-  margin-bottom: 74px;
-  width: 100%;
+  margin-bottom: 83px;
 }
 
 .nav__link:hover {
@@ -14,6 +13,7 @@
 }
 
 .copyright__text {
+  width: 127px;
   font-weight: 700;
   font-size: 35px;
   line-height: 42px;

@@ -1,5 +1,6 @@
 .gallery__title {
-  margin-bottom: 100px;
+  margin-bottom: 95px;
+  width: 97%;
   font-size: 100px;
   line-height: 74px;
   text-align: center;
@@ -65,7 +66,7 @@
   margin: 0 auto;
   width: 120px;
   display: flex;
-  gap: 20px;
+  gap: 7px;
 }
 
 .gallery__control-prev,

@@ -2,7 +2,10 @@
   <head>
     <title>Nothing St0re</title>
     <meta charset="UTF-8" />
-    <link rel="icon" href="/" type="image/png" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-big.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-small.png">
+   
     <link rel="stylesheet" href="styles/reset.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,7 +28,7 @@
               <a href="functions">функции</a>
             </li>
             <li>
-              <a href="trainings">тренировки</a>
+              <a href="workouts">тренировки</a>
             </li>
             <li>
               <a href="socials">социальные сети</a>
@@ -38,9 +41,11 @@
       <section class="intro">
         <div class="container">
           <h1 class="intro__title">Nothing Ear</h1>
-          <p class="intro__subtitle"> Беспроводные наушники-вкладыши </p>
-          <p class="intro__subtitle"> с  активным шумоподавлением, </p>
-          <p class="intro__subtitle"> которые подарят чистейший звук </p>
+          <div class="intro__subtitle-wrapper">
+            <p class="intro__subtitle">
+             Беспроводные наушники-вкладыши с  активным шумоподавлением, которые подарят чистейший звук
+            </p>
+          </div>
           <div class="intro__image"></div>
         </div>
       </section>
@@ -62,10 +67,12 @@
               </div>
             </li>
             <li class="item">
-              <p class="promo__text">
-                Ничто не отвлекает. Просто чистый инстинкт, сформированный как
-                машина
-              </p>
+              <div class="promo__text-wrapper">
+                <p class="promo__text">
+                  Ничто не отвлекает. Просто чистый инстинкт, сформированный как
+                  машина
+                </p>
+              </div>
               <div class="last__item-wrapper">
                 <h2 class="model__name">Телефон Nothing</h2>
                 <div class="model__thumbnail"></div>
@@ -87,7 +94,7 @@
           </p>
         </div>
       </section>
-      <section class="trainings">
+      <section class="workouts">
         <div class="container">
           <h2 class="ad__text padded">Ударные тренировки. Нет поту</h2>
           <ul class="features-list">
@@ -119,12 +126,16 @@
             Наушники nothing ear (1) используют технологию clear voice и три
             микрофона высокой четкости.
           </h2>
-          <p class="technology__subtitle">
-            Пока вы говорите, передовые алгоритмы анализируют миллион голосовых
-            и звуковых комбинаций (даже при скорости ветра до 40 км/ч), чтобы
-            изолировать и усиливать ваш голос с удивительной точностью.
-          </p>
-          <a class="buy-btn centered">купить</a>
+          <div class="technology__subtitle-wrapper">
+            <p class="technology__subtitle">
+              Пока вы говорите, передовые алгоритмы анализируют миллион голосовых
+              и звуковых комбинаций (даже при скорости ветра до 40 км/ч), чтобы
+              изолировать и усиливать ваш голос с удивительной точностью.
+            </p>
+          </div>
+          <div class="buy-btn-box">
+            <a class="buy-btn centered">купить</a>
+          </div>
         </div>
       </section>
       <section class="gallery">
@@ -230,20 +241,22 @@
       </section>
       <section class="socials">
         <div class="container">
-          <ul class="socials-list">
-            <li>
-              <a class="socials__link" href="/">inst</a>
-            </li>
-            <li>
-              <a class="socials__link" href="/">yt</a>
-            </li>
-            <li>
-              <a class="socials__link" href="/">twt</a>
-            </li>
-            <li>
-              <a class="socials__link" href="/">fb</a>
-            </li>
-          </ul>
+          <div class="socials-list-box">
+            <ul class="socials-list">
+              <li>
+                <a class="socials__link" href="/">inst</a>
+              </li>
+              <li>
+                <a class="socials__link" href="/">yt</a>
+              </li>
+              <li>
+                <a class="socials__link" href="/">twt</a>
+              </li>
+              <li>
+                <a class="socials__link" href="/">fb</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
     </main>

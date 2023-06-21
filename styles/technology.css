@@ -14,16 +14,23 @@
 }
 
 .technology__title {
-  margin: 0 auto 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
   font-size: 100px;
   line-height: 74px;
   letter-spacing: -0.06em;
   text-align: center;
 }
 
+.technology__subtitle-wrapper {
+  margin-bottom: 56px;
+  display: flex;
+  justify-content: center;
+}
+
 .technology__subtitle {
-  margin: 0 auto 60px;
-  width: 942px;
+  max-width: 940px;
   font-weight: 700;
   font-size: 45px;
   line-height: 40px;
@@ -31,9 +38,13 @@
   text-align: center;
 }
 
+.buy-btn-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .centered {
-  margin: 0 auto;
-  position: unset;
-  display: block;
   width: 866px;
+  position: unset;
 }

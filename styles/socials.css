@@ -3,11 +3,13 @@
   padding-top: 68px;
 }
 
+.socials-list-box {
+  width: 97%;
+}
+
 .socials-list {
-  margin: 0 auto;
-  width: 934px;
   display: flex;
-  flex-wrap: nowrap;
+  justify-content: center;
   gap: 30px;
 }
 
