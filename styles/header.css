@@ -44,21 +44,38 @@
 }
 
 .burger-nav {
+  margin-top: 97px;
+  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   gap: 20px;
-  margin-top: 97px;
-  margin-bottom: 50px;
 }
 
-.burger-socials-list {
+.burger-nav__link {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.burger-socials {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   gap: 25px;
+}
+
+.burger-socials__link {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 73.523%;
+  letter-spacing: -2.1px;
+}
+
+.burger-nav__link:hover,
+.burger-socials__link:hover {
+  color: #ff25c2;
 }
 
 @media (max-width: 767px) {
@@ -67,29 +84,28 @@
     padding-bottom: 86.3px;
   }
 
-  .nav {
+  .header-nav {
     display: none;
   }
 
-  /*.burger-btn {
-    display: flex;
-    justify-content: center;
-  }*/
-
   .burger-btn {
+    margin-bottom: 15px;
     display: block;
     position: relative;
+    top: 17px;
+    left: 31%;
     z-index: 120;
-    width: 55px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     cursor: pointer;
+    border: 1px solid red;
   }
 
   .burger-btn__line {
     display: block;
     position: absolute;
-    top: 9px;
-    left: 187.5px;
+    top: 18px;
+    left: 2px;
     width: 44px;
     height: 6.25px;
     background: rgba(255, 37, 194, 1);
@@ -101,7 +117,6 @@
     content: "";
     display: block;
     position: absolute;
-    right: 0;
     width: 44px;
     height: 6.25px;
     background-color: rgba(255, 37, 194, 1);
@@ -109,11 +124,11 @@
   }
 
   .burger-btn__line::after {
-    top: 10px;
+    top: 13px;
   }
 
   .burger-btn__line::before {
-    top: -10px;
+    top: -13px;
   }
 
   .js-burger-btn.burger-btn.burger-btn_open .burger-btn__line {
@@ -123,7 +138,7 @@
 
   .js-burger-btn.burger-btn.burger-btn_open .burger-btn__line::after {
     width: 44px;
-    transform: rotate(90deg) translate(-9px, 0);
+    transform: rotate(90deg) translate(-13px, 0);
   }
 
   .js-burger-btn.burger-btn.burger-btn_open .burger-btn__line::before {
