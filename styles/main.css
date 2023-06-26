@@ -42,3 +42,17 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+
+@media (max-width: 1199px) {
+  .container {
+    padding: 0 15px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding-left: 13px;
+    padding-right: 12px;
+  }
+}

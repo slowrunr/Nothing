@@ -118,3 +118,32 @@
   width: 180px;
   background-image: url(/images/nothing-phone-thumbnail.jpg);
 }
+
+@media (max-width: 1199px) {
+  .item:last-child {
+    display: block;
+    height: 979px;
+  }
+
+  .promo__text-wrapper,
+  .last__item-wrapper {
+    width: 100%;
+  }
+
+  .promo__text-wrapper {
+    margin-bottom: 60px;
+    display: block;
+    height: 224px;
+  }
+
+  .promo__text {
+    max-width: 831px;
+    text-align: left;
+  }
+
+  .last__item-wrapper {
+    width: 695px;
+    height: 644px;
+    float: right;
+  }
+}
