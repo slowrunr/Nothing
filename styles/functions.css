@@ -29,3 +29,13 @@
   width: 671px;
   text-align: center;
 }
+
+@media (max-width: 1199px) {
+  .functions {
+    background-image: url(/images/face2face-tblt.jpg);
+  }
+
+  .ad__text {
+    padding-top: 190px;
+  }
+}

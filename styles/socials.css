@@ -26,3 +26,10 @@
 .socials__link:hover {
   color: #ff25c2;
 }
+
+@media (max-width: 1199px) {
+  .socials {
+    margin-bottom: 178px;
+    padding-top: 58px;
+  }
+}

@@ -89,3 +89,9 @@
 .gallery__control-prev:hover {
   opacity: 50%;
 }
+
+@media (max-width: 1199px) {
+  .gallery__title {
+    margin-bottom: 80px;
+  }
+}

@@ -48,3 +48,17 @@
   width: 866px;
   position: unset;
 }
+
+@media (max-width: 1199px) {
+  .technology__title {
+    margin-bottom: 32px;
+  }
+
+  .technology__subtitle-wrapper {
+    margin-bottom: 58px;
+  }
+
+  .centered {
+    width: 95%;
+  }
+}

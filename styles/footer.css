@@ -1,5 +1,5 @@
 .footer-nav {
-  margin-bottom: 83px;
+  margin-bottom: 74px;
 }
 
 .nav__link:hover {
@@ -18,4 +18,10 @@
   font-size: 35px;
   line-height: 42px;
   color: #ff25c2;
+}
+
+@media (max-width: 1199px) {
+  .footer-nav {
+    margin-bottom: 46px;
+  }
 }
