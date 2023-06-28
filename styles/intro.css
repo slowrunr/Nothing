@@ -18,7 +18,7 @@
 }
 
 .intro__image {
-  margin: -21px auto;
+  margin: 0 auto;
   width: 819px;
   height: 840px;
   background-image: url(../images/intro-image.jpg);
@@ -26,5 +26,14 @@
   background-size: cover;
 }
 
+@media (max-width: 960px) {
+  .intro__image {
+    width: 100%;
+  }
+}
+
 @media (max-width: 767px) {
+  .intro__image {
+    background-image: url(../images/intro-image-mbl.jpg);
+  }
 }
