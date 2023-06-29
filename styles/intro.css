@@ -33,7 +33,15 @@
 }
 
 @media (max-width: 767px) {
+  .intro__subtitle {
+    max-width: 299px;
+  }
+
   .intro__image {
+    margin-bottom: 87px;
+    height: 437px;
     background-image: url(../images/intro-image-mbl.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 }

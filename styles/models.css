@@ -147,3 +147,25 @@
     float: right;
   }
 }
+
+@media (max-width: 767px) {
+  .item {
+    height: 550px;
+  }
+
+  .item:first-child {
+    background-image: url(/images/ear-white-buds-mbl.jpg);
+  }
+
+  .item:nth-last-child(2) {
+    background-image: url(/images/ear-black-buds-mbl.jpg);
+  }
+
+  .last__item-wrapper {
+    background-image: url(/images/nothing-phone-mbl.jpg);
+  }
+
+  .model__name {
+    width: 261px;
+  }
+}
