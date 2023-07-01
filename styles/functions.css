@@ -49,10 +49,21 @@
   }
 
   .ad__text {
+    margin-bottom: 50px;
     padding-top: 100px;
     width: 100%;
     font-size: 60px;
     line-height: 44px;
     letter-spacing: -6%;
+  }
+
+  .description {
+    margin-bottom: 50px;
+    width: 100%;
+  }
+
+  .last {
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
