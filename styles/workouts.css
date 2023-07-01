@@ -40,3 +40,28 @@
   background-size: 20px 20px;
   background-repeat: no-repeat;
 }
+
+@media (max-width: 767px) {
+  .padded {
+    padding-top: 0;
+    margin-bottom: 124px;
+  }
+
+  .features-list {
+    margin-bottom: 100px;
+    padding-left: 15px;
+    padding-right: 16px;
+  }
+
+  .narrow {
+    width: 100%;
+  }
+
+  .narrow::before {
+    left: 43%;
+  }
+
+  .features-list li:last-child p {
+    margin-bottom: 0;
+  }
+}

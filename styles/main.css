@@ -52,10 +52,6 @@ a {
 }
 
 @media (max-width: 767px) {
-  .section {
-    margin-bottom: 100px;
-  }
-
   .container {
     padding-left: 13px;
     padding-right: 12px;

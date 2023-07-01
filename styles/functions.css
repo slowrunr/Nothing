@@ -42,6 +42,7 @@
 
 @media (max-width: 767px) {
   .functions {
+    margin-bottom: 100px;
     padding-left: 29px;
     padding-right: 29px;
     height: 559px;
