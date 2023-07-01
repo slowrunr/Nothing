@@ -39,3 +39,20 @@
     padding-top: 190px;
   }
 }
+
+@media (max-width: 767px) {
+  .functions {
+    padding-left: 29px;
+    padding-right: 29px;
+    height: 559px;
+    background-image: url(/images/face2face-mbl.jpg);
+  }
+
+  .ad__text {
+    padding-top: 100px;
+    width: 100%;
+    font-size: 60px;
+    line-height: 44px;
+    letter-spacing: -6%;
+  }
+}
