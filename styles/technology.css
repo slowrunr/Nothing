@@ -62,3 +62,27 @@
     width: 95%;
   }
 }
+
+@media (max-width: 767px) {
+  .technology {
+    padding-top: 100px;
+    height: 932px;
+    background-image: url(../images/girl-with-ear-bud-mbl.jpg);
+    background-position: 50%;
+  }
+
+  .technology__title {
+    width: 100%;
+    font-size: 45px;
+    line-height: 42px;
+  }
+
+  .technology__subtitle {
+    padding-left: 21px;
+    padding-right: 58px;
+    width: 100%;
+    font-size: 25px;
+    line-height: 22.5px;
+    letter-spacing: -1.5px;
+  }
+}

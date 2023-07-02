@@ -33,7 +33,12 @@
 }
 
 @media (max-width: 767px) {
+  .intro__title {
+    margin-bottom: 23px;
+  }
+
   .intro__subtitle {
+    margin-bottom: -11px;
     max-width: 299px;
   }
 
