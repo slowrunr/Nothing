@@ -75,6 +75,7 @@
   letter-spacing: -2.1px;
 }
 
+.menu,
 .burger-nav__link:hover,
 .burger-socials__link:hover {
   color: #ff25c2;
