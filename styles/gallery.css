@@ -95,3 +95,35 @@
     margin-bottom: 80px;
   }
 }
+
+@media (max-width: 767px) {
+  .gallery__title {
+    margin-bottom: 80px;
+    font-size: 45px;
+    line-height: 33px;
+  }
+
+  .gallery__slides,
+  .gallery__item {
+    height: 432px;
+  }
+
+  .description__wrapper {
+    bottom: 58px;
+  }
+
+  .slide__description {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .gallery__controls-wrapper {
+    bottom: 50%;
+  }
+
+  .gallery__controls {
+    justify-content: space-between;
+    width: unset;
+    gap: unset;
+  }
+}
