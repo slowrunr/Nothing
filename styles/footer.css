@@ -25,3 +25,26 @@
     margin-bottom: 46px;
   }
 }
+
+@media (max-width: 767px) {
+  .footer-nav {
+    margin-bottom: 37px;
+  }
+  .menu {
+    flex-direction: column;
+    gap: 9px;
+    text-align: center;
+  }
+
+  .copyright {
+    margin-bottom: 52px;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 10px;
+  }
+
+  .copyright__text {
+    font-size: 22px;
+    line-height: 26.63px;
+  }
+}

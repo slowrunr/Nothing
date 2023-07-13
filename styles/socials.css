@@ -33,3 +33,20 @@
     padding-top: 58px;
   }
 }
+
+@media (max-width: 767px) {
+  .socials {
+    margin-bottom: 65px;
+    padding-top: 37px;
+  }
+
+  .socials-list {
+    gap: unset;
+  }
+
+  .socials__link {
+    width: 118px;
+    font-size: 25px;
+    line-height: 18px;
+  }
+}

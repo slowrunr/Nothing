@@ -113,6 +113,7 @@
   }
 
   .slide__description {
+    width: 100%;
     font-size: 16px;
     line-height: 20px;
   }
@@ -125,5 +126,10 @@
     justify-content: space-between;
     width: unset;
     gap: unset;
+  }
+
+  .gallery__control-image {
+    width: 34px;
+    height: 34px;
   }
 }
